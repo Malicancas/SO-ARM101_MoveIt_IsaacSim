@@ -1,0 +1,144 @@
+1777369890.5508928 [INFO] [launch]: All log files can be found below /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/.ros-log/2026-04-28-10-51-30-550206-pop-os-1701521
+1777369890.5509965 [INFO] [launch]: Default logging verbosity is set to INFO
+1777369891.2535970 [INFO] [static_transform_publisher-1]: process started with pid [1701535]
+1777369891.2538047 [INFO] [robot_state_publisher-2]: process started with pid [1701537]
+1777369891.2538922 [INFO] [move_group-3]: process started with pid [1701539]
+1777369891.2539520 [INFO] [rviz2-4]: process started with pid [1701541]
+1777369891.2540054 [INFO] [ros2_control_node-5]: process started with pid [1701543]
+1777369891.2540560 [INFO] [spawner-6]: process started with pid [1701545]
+1777369891.2541044 [INFO] [spawner-7]: process started with pid [1701547]
+1777369891.2541523 [INFO] [spawner-8]: process started with pid [1701549]
+1777369891.2541983 [INFO] [mtc_node-9]: process started with pid [1701551]
+1777369891.6617849 [static_transform_publisher-1] [INFO] [1777369891.661322352] [static_transform_publisher0]: Spinning until stopped - publishing transform
+1777369891.6620083 [static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+1777369891.6621232 [static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1777369891.6622031 [static_transform_publisher-1] from 'world' to 'base'
+1777369891.6774333 [ros2_control_node-5] [WARN] [1777369891.674762360] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1777369891.6776330 [ros2_control_node-5] [INFO] [1777369891.675093510] [resource_manager]: Loading hardware 'FakeSystem' 
+1777369891.6777151 [ros2_control_node-5] [INFO] [1777369891.676423701] [resource_manager]: Initialize hardware 'FakeSystem' 
+1777369891.6853056 [ros2_control_node-5] [INFO] [1777369891.685050437] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1777369891.6857243 [ros2_control_node-5] [INFO] [1777369891.685125120] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1777369891.6861975 [ros2_control_node-5] [INFO] [1777369891.685133296] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1777369891.6862650 [ros2_control_node-5] [INFO] [1777369891.685138340] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1777369891.6863034 [ros2_control_node-5] [INFO] [1777369891.685142198] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1777369891.6945598 [ros2_control_node-5] [INFO] [1777369891.691938367] [controller_manager]: update rate is 100 Hz
+1777369891.6947298 [ros2_control_node-5] [INFO] [1777369891.691971070] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1777369891.6947870 [ros2_control_node-5] [WARN] [1777369891.692143152] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1777369891.8190377 [ros2_control_node-5] [INFO] [1777369891.818730305] [controller_manager]: Loading controller 'gripper_controller'
+1777369891.9646013 [ros2_control_node-5] [INFO] [1777369891.964296142] [controller_manager]: Loading controller 'arm_controller'
+1777369891.9696379 [ERROR] [spawner-7]: process has died [pid 1701547, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner gripper_controller --ros-args'].
+1777369891.9772298 [ros2_control_node-5] [WARN] [1777369891.976926786] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1777369892.1070247 [ERROR] [spawner-6]: process has died [pid 1701545, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner arm_controller --ros-args'].
+1777369892.1078055 [rviz2-4] [INFO] [1777369892.107673113] [rviz2]: Stereo is NOT SUPPORTED
+1777369892.1079822 [rviz2-4] [INFO] [1777369892.107733787] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1777369892.1439278 [rviz2-4] [INFO] [1777369892.143619021] [rviz2]: Stereo is NOT SUPPORTED
+1777369892.2134173 [rviz2-4] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1777369892.2135525 [rviz2-4]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1777369892.6999238 [ros2_control_node-5] [INFO] [1777369892.699684292] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1777369892.8316391 [ERROR] [spawner-8]: process has died [pid 1701549, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster --ros-args'].
+1777369893.9733968 [ERROR] [mtc_node-9]: process has died [pid 1701551, exit code -6, cmd '/home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/install/mtc_tutorial/lib/mtc_tutorial/mtc_node --ros-args --params-file /tmp/launch_params_q0p4rpgk --params-file /tmp/launch_params_3bg5f3fh --params-file /tmp/launch_params_rblnp69f --params-file /tmp/launch_params_wpun349h --params-file /tmp/launch_params_lrnd2i7x'].
+1777369895.2280030 [rviz2-4] [ERROR] [1777369895.227649875] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1777369895.2800126 [rviz2-4] [INFO] [1777369895.279763019] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1777369895.3975506 [rviz2-4] Error:   Semantic description is not specified for the same robot as the URDF
+1777369895.3976676 [rviz2-4]          at line 681 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3976970 [rviz2-4] Error:   Virtual joint does not attach to a link on the robot (link 'base' is not known)
+1777369895.3977180 [rviz2-4]          at line 104 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3977365 [rviz2-4] Error:   Joint 'Rotation' declared as part of group 'arm' is not known to the URDF
+1777369895.3977549 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3977728 [rviz2-4] Error:   Joint 'Pitch' declared as part of group 'arm' is not known to the URDF
+1777369895.3977900 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3978071 [rviz2-4] Error:   Joint 'Elbow' declared as part of group 'arm' is not known to the URDF
+1777369895.3978243 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3978410 [rviz2-4] Error:   Joint 'Wrist_Pitch' declared as part of group 'arm' is not known to the URDF
+1777369895.3978570 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3978736 [rviz2-4] Error:   Joint 'Wrist_Roll' declared as part of group 'arm' is not known to the URDF
+1777369895.3978896 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3979056 [rviz2-4] Warning: Group 'arm' is empty.
+1777369895.3979225 [rviz2-4]          at line 262 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3979394 [rviz2-4] Error:   Joint 'Jaw' declared as part of group 'gripper' is not known to the URDF
+1777369895.3979559 [rviz2-4]          at line 185 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3979716 [rviz2-4] Warning: Group 'gripper' is empty.
+1777369895.3979881 [rviz2-4]          at line 262 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3980043 [rviz2-4] Error:   Joint 'Jaw' declared as part of group state 'close' is not known to the URDF
+1777369895.3980200 [rviz2-4]          at line 363 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3980365 [rviz2-4] Error:   Joint 'Jaw' declared as part of group state 'open' is not known to the URDF
+1777369895.3980622 [rviz2-4]          at line 363 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3982627 [rviz2-4] Error:   Link 'gripper' specified as parent for end effector 'endeffector' is not known to the URDF
+1777369895.3983109 [rviz2-4]          at line 440 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3983326 [rviz2-4] Warning: Link 'base' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3983519 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3983774 [rviz2-4] Warning: Link 'base' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3983989 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3984194 [rviz2-4] Warning: Link 'gripper' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3984418 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3984630 [rviz2-4] Warning: Link 'gripper' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3985057 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3985238 [rviz2-4] Warning: Link 'gripper' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3985403 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3985565 [rviz2-4] Warning: Link 'jaw' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3985724 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3985887 [rviz2-4] Warning: Link 'jaw' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3986044 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3986201 [rviz2-4] Warning: Link 'lower_arm' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3986363 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3986521 [rviz2-4] Warning: Link 'lower_arm' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3986681 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3986835 [rviz2-4] Warning: Link 'shoulder' is not known to URDF. Cannot disable/enable collisons.
+1777369895.3986993 [rviz2-4]          at line 589 in /home/ze/ws_moveit/src/srdfdom/src/model.cpp
+1777369895.3988047 [rviz2-4] [INFO] [1777369895.397458471] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0773434 seconds
+1777369895.3988347 [rviz2-4] [INFO] [1777369895.397492921] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+1777369895.3988562 [rviz2-4] [INFO] [1777369895.397510559] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+1777369895.4018009 [rviz2-4] [WARN] [1777369895.401684006] [moveit_robot_model.robot_model]: Group 'arm' must have at least one valid joint
+1777369895.4018645 [rviz2-4] [WARN] [1777369895.401698899] [moveit_robot_model.robot_model]: Failed to add group 'arm'
+1777369895.4018910 [rviz2-4] [WARN] [1777369895.401701433] [moveit_robot_model.robot_model]: Group 'gripper' must have at least one valid joint
+1777369895.4019115 [rviz2-4] [WARN] [1777369895.401702959] [moveit_robot_model.robot_model]: Failed to add group 'gripper'
+1777369895.4019296 [rviz2-4] [ERROR] [1777369895.401712132] [moveit_robot_model.robot_model]: Group state 'close' specified for group 'gripper', but that group does not exist
+1777369895.4020560 [rviz2-4] [ERROR] [1777369895.401725666] [moveit_robot_model.robot_model]: Group state 'open' specified for group 'gripper', but that group does not exist
+1777369895.4468219 [rviz2-4] [INFO] [1777369895.446620863] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1777369895.4474747 [rviz2-4] [INFO] [1777369895.447360486] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1777369895.6091638 [rviz2-4] [INFO] [1777369895.608949088] [interactive_marker_display_99432410085696]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1777369895.6144459 [rviz2-4] [ERROR] [1777369895.614238743] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+1777369895.6145756 [rviz2-4] [ERROR] [1777369895.614268855] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+1777369895.6148148 [rviz2-4] [ERROR] [1777369895.614315936] [moveit_transforms.transforms]: Unable to transform from frame 'world' to frame 'panda_link0'. Returning identity.
+1777369895.6148701 [rviz2-4] [WARN] [1777369895.614323319] [moveit_robot_state.conversions]: No joint matching multi-dof joint 'virtual_joint'
+1777369895.6149030 [rviz2-4] [ERROR] [1777369895.614371637] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+1777369895.6149254 [rviz2-4] [ERROR] [1777369895.614406162] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+1777369895.6149440 [rviz2-4] [ERROR] [1777369895.614420273] [moveit_transforms.transforms]: Unable to transform from frame 'world' to frame 'panda_link0'. Returning identity.
+1777369895.6149614 [rviz2-4] [WARN] [1777369895.614433109] [moveit_robot_state.conversions]: No joint matching multi-dof joint 'virtual_joint'
+1777369895.6160555 [rviz2-4] [WARN] [1777369895.615886430] [moveit_planning_scene.planning_scene]: Setting the scene for model 'so101_new_calib' but model 'panda' is loaded.
+1777369895.6161504 [rviz2-4] [ERROR] [1777369895.615901451] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6161799 [rviz2-4] [ERROR] [1777369895.615918612] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6162035 [rviz2-4] [ERROR] [1777369895.615925122] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6162219 [rviz2-4] [ERROR] [1777369895.615930445] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6162393 [rviz2-4] [ERROR] [1777369895.615935318] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6162565 [rviz2-4] [ERROR] [1777369895.615940020] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6162746 [rviz2-4] [ERROR] [1777369895.615944665] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6164167 [rviz2-4] [ERROR] [1777369895.615950098] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6164513 [rviz2-4] [ERROR] [1777369895.615966515] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6164720 [rviz2-4] [ERROR] [1777369895.615972335] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6164908 [rviz2-4] [ERROR] [1777369895.615977237] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6165135 [rviz2-4] [ERROR] [1777369895.615982079] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6165969 [rviz2-4] [ERROR] [1777369895.615988593] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6166241 [rviz2-4] [ERROR] [1777369895.615993698] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+1777369895.6166458 [rviz2-4] [ERROR] [1777369895.616029985] [moveit_exceptions.exceptions]: Variable 'Rotation' is not known to model 'panda'
+1777369895.6166713 [rviz2-4] Exception thrown.
+1777369895.6166902 [rviz2-4] terminate called after throwing an instance of 'moveit::Exception'
+1777369895.6167092 [rviz2-4]   what():  Variable 'Rotation' is not known to model 'panda'
+1777369896.7185450 [ERROR] [rviz2-4]: process has died [pid 1701541, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/install/so_arm_moveit_config/share/so_arm_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_997nypf8 --params-file /tmp/launch_params_1en_5eny --params-file /tmp/launch_params_o5yhoqzq'].
+1777369961.9413617 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1777369961.9490628 [ros2_control_node-5] [INFO] [1777369961.941214911] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1777369961.9493651 [ros2_control_node-5] [INFO] [1777369961.941320195] [controller_manager]: Shutdown request received....
+1777369961.9496038 [ros2_control_node-5] [INFO] [1777369961.941395655] [controller_manager]: Shutting down all controllers in the controller manager.
+1777369961.9498003 [ros2_control_node-5] [INFO] [1777369961.941426244] [controller_manager]: Shutting down controller 'gripper_controller'
+1777369961.9499366 [ros2_control_node-5] [INFO] [1777369961.941515734] [controller_manager]: Shutting down controller 'arm_controller'
+1777369961.9500420 [ros2_control_node-5] [INFO] [1777369961.941659364] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+1777369961.9501574 [ros2_control_node-5] [INFO] [1777369961.941691400] [resource_manager]: 'deactivate' hardware 'FakeSystem' 
+1777369961.9502594 [ros2_control_node-5] [INFO] [1777369961.941706334] [resource_manager]: Successful 'deactivate' of hardware 'FakeSystem'
+1777369961.9503844 [ros2_control_node-5] [INFO] [1777369961.941711083] [resource_manager]: 'shutdown' hardware 'FakeSystem' 
+1777369961.9505484 [ros2_control_node-5] [INFO] [1777369961.941717282] [resource_manager]: Successful 'shutdown' of hardware 'FakeSystem'
+1777369961.9510798 [ros2_control_node-5] [INFO] [1777369961.941721483] [controller_manager]: Shutting down the controller manager.
+1777369961.9518852 [static_transform_publisher-1] [INFO] [1777369961.941207100] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1777369962.0664701 [INFO] [static_transform_publisher-1]: process has finished cleanly [pid 1701535]
+1777369962.0709453 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 1701537]
+1777369962.1194549 [INFO] [ros2_control_node-5]: process has finished cleanly [pid 1701543]
+1777369962.1445279 [INFO] [move_group-3]: process has finished cleanly [pid 1701539]

@@ -1,0 +1,9 @@
+[INFO] [1777369891.728831643] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0282777 seconds
+[INFO] [1777369891.728878795] [moveit_robot_model.robot_model]: Loading robot model 'so101_new_calib'...
+[WARN] [1777369892.073492692] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1777369892.073591099] [moveit_kinematics_base.kinematics_base]: Using position only ik
+[WARN] [1777369892.896089004] [moveit_planning_scene.planning_scene]: Setting the scene for model 'panda' but model 'so101_new_calib' is loaded.
+[ERROR] [1777369892.896108734] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369892.896139171] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369892.896164309] [moveit_exceptions.exceptions]: Variable 'panda_joint1' is not known to model 'so101_new_calib'
+Exception thrown.

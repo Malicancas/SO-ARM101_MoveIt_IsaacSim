@@ -1,0 +1,26 @@
+[WARN] [1777369891.674762360] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1777369891.675093510] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1777369891.676423701] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1777369891.685050437] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1777369891.685125120] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1777369891.685133296] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1777369891.685138340] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1777369891.685142198] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1777369891.691938367] [controller_manager]: update rate is 100 Hz
+[INFO] [1777369891.691971070] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1777369891.692143152] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1777369891.818730305] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1777369891.964296142] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1777369891.976926786] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1777369892.699684292] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1777369961.941214911] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1777369961.941320195] [controller_manager]: Shutdown request received....
+[INFO] [1777369961.941395655] [controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1777369961.941426244] [controller_manager]: Shutting down controller 'gripper_controller'
+[INFO] [1777369961.941515734] [controller_manager]: Shutting down controller 'arm_controller'
+[INFO] [1777369961.941659364] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[INFO] [1777369961.941691400] [resource_manager]: 'deactivate' hardware 'FakeSystem' 
+[INFO] [1777369961.941706334] [resource_manager]: Successful 'deactivate' of hardware 'FakeSystem'
+[INFO] [1777369961.941711083] [resource_manager]: 'shutdown' hardware 'FakeSystem' 
+[INFO] [1777369961.941717282] [resource_manager]: Successful 'shutdown' of hardware 'FakeSystem'
+[INFO] [1777369961.941721483] [controller_manager]: Shutting down the controller manager.

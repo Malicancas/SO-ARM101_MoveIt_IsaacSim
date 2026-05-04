@@ -1,0 +1,25 @@
+[WARN] [1777369606.736109799] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1777369606.736323165] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1777369606.737218987] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1777369606.743455513] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1777369606.743545887] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1777369606.743559334] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1777369606.743567924] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1777369606.743574041] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1777369606.746993801] [controller_manager]: update rate is 100 Hz
+[INFO] [1777369606.747023017] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1777369606.747091334] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1777369606.980902979] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1777369606.998752603] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1777369606.998865361] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1777369607.028636662] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1777369607.035324407] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1777369607.050570865] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1777369607.050768962] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1777369607.050796186] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1777369607.050818972] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1777369607.051572372] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1777369607.052620891] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1777369607.236810031] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1777369607.248854509] [controller_manager]: Configuring controller 'gripper_controller'
+[INFO] [1777369607.248901582] [gripper_controller]: Action status changes will be monitored at 20.000000 Hz.

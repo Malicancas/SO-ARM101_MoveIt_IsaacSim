@@ -1,0 +1,42 @@
+[INFO] [1777369892.107673113] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1777369892.107733787] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1777369892.143619021] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1777369895.227649875] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1777369895.279763019] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1777369895.397458471] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0773434 seconds
+[INFO] [1777369895.397492921] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[INFO] [1777369895.397510559] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1777369895.401684006] [moveit_robot_model.robot_model]: Group 'arm' must have at least one valid joint
+[WARN] [1777369895.401698899] [moveit_robot_model.robot_model]: Failed to add group 'arm'
+[WARN] [1777369895.401701433] [moveit_robot_model.robot_model]: Group 'gripper' must have at least one valid joint
+[WARN] [1777369895.401702959] [moveit_robot_model.robot_model]: Failed to add group 'gripper'
+[ERROR] [1777369895.401712132] [moveit_robot_model.robot_model]: Group state 'close' specified for group 'gripper', but that group does not exist
+[ERROR] [1777369895.401725666] [moveit_robot_model.robot_model]: Group state 'open' specified for group 'gripper', but that group does not exist
+[INFO] [1777369895.446620863] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1777369895.447360486] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1777369895.608949088] [interactive_marker_display_99432410085696]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[ERROR] [1777369895.614238743] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.614268855] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.614315936] [moveit_transforms.transforms]: Unable to transform from frame 'world' to frame 'panda_link0'. Returning identity.
+[WARN] [1777369895.614323319] [moveit_robot_state.conversions]: No joint matching multi-dof joint 'virtual_joint'
+[ERROR] [1777369895.614371637] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.614406162] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.614420273] [moveit_transforms.transforms]: Unable to transform from frame 'world' to frame 'panda_link0'. Returning identity.
+[WARN] [1777369895.614433109] [moveit_robot_state.conversions]: No joint matching multi-dof joint 'virtual_joint'
+[WARN] [1777369895.615886430] [moveit_planning_scene.planning_scene]: Setting the scene for model 'so101_new_calib' but model 'panda' is loaded.
+[ERROR] [1777369895.615901451] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615918612] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615925122] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615930445] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615935318] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615940020] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615944665] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615950098] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615966515] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615972335] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615977237] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615982079] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615988593] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.615993698] [moveit_transforms.transforms]: Given transform is to frame 'base', but frame 'panda_link0' was expected.
+[ERROR] [1777369895.616029985] [moveit_exceptions.exceptions]: Variable 'Rotation' is not known to model 'panda'
+Exception thrown.

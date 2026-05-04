@@ -1,0 +1,25 @@
+[WARN] [1777369680.263014227] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1777369680.263462660] [resource_manager]: Loading hardware 'FakeSystem' 
+[INFO] [1777369680.264939000] [resource_manager]: Initialize hardware 'FakeSystem' 
+[INFO] [1777369680.270115547] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+[INFO] [1777369680.270177894] [resource_manager]: 'configure' hardware 'FakeSystem' 
+[INFO] [1777369680.270183846] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+[INFO] [1777369680.270187404] [resource_manager]: 'activate' hardware 'FakeSystem' 
+[INFO] [1777369680.270190487] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+[INFO] [1777369680.272827867] [controller_manager]: update rate is 100 Hz
+[INFO] [1777369680.272859813] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1777369680.272936965] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1777369680.573024569] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1777369680.590378776] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1777369680.603478220] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1777369680.614567239] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1777369680.623515764] [controller_manager]: Configuring controller 'gripper_controller'
+[INFO] [1777369680.623659060] [gripper_controller]: Action status changes will be monitored at 20.000000 Hz.
+[INFO] [1777369680.653668086] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1777369680.653946385] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1777369680.653995215] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1777369680.654030543] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1777369680.655239023] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1777369680.657400833] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1777369680.683551409] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1777369680.683688565] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published

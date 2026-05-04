@@ -1,0 +1,50 @@
+1777369679.5001321 [INFO] [launch]: All log files can be found below /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/.ros-log/2026-04-28-10-47-59-499423-pop-os-1701121
+1777369679.5002332 [INFO] [launch]: Default logging verbosity is set to INFO
+1777369680.2387667 [INFO] [static_transform_publisher-1]: process started with pid [1701122]
+1777369680.2390199 [INFO] [robot_state_publisher-2]: process started with pid [1701124]
+1777369680.2391424 [INFO] [move_group-3]: process started with pid [1701126]
+1777369680.2392483 [INFO] [rviz2-4]: process started with pid [1701128]
+1777369680.2393510 [INFO] [ros2_control_node-5]: process started with pid [1701130]
+1777369680.2394497 [INFO] [spawner-6]: process started with pid [1701132]
+1777369680.2395558 [INFO] [spawner-7]: process started with pid [1701134]
+1777369680.2396557 [INFO] [spawner-8]: process started with pid [1701136]
+1777369680.2397540 [INFO] [mtc_node-9]: process started with pid [1701138]
+1777369680.2501171 [static_transform_publisher-1] [INFO] [1777369680.249569242] [static_transform_publisher0]: Spinning until stopped - publishing transform
+1777369680.2502513 [static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+1777369680.2502873 [static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1777369680.2503119 [static_transform_publisher-1] from 'world' to 'base'
+1777369680.2580628 [rviz2-4] qt.qpa.xcb: could not connect to display :1
+1777369680.2581921 [rviz2-4] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1777369680.2584083 [rviz2-4] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1777369680.2584548 [rviz2-4] 
+1777369680.2584798 [rviz2-4] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
+1777369680.2585621 [rviz2-4] 
+1777369680.2635550 [ros2_control_node-5] [WARN] [1777369680.263014227] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1777369680.2641420 [ros2_control_node-5] [INFO] [1777369680.263462660] [resource_manager]: Loading hardware 'FakeSystem' 
+1777369680.2652044 [ros2_control_node-5] [INFO] [1777369680.264939000] [resource_manager]: Initialize hardware 'FakeSystem' 
+1777369680.2704272 [ros2_control_node-5] [INFO] [1777369680.270115547] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1777369680.2706282 [ros2_control_node-5] [INFO] [1777369680.270177894] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1777369680.2707033 [ros2_control_node-5] [INFO] [1777369680.270183846] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1777369680.2707679 [ros2_control_node-5] [INFO] [1777369680.270187404] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1777369680.2708287 [ros2_control_node-5] [INFO] [1777369680.270190487] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1777369680.2730508 [ros2_control_node-5] [INFO] [1777369680.272827867] [controller_manager]: update rate is 100 Hz
+1777369680.2732077 [ros2_control_node-5] [INFO] [1777369680.272859813] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1777369680.2735367 [ros2_control_node-5] [WARN] [1777369680.272936965] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1777369680.3327086 [ERROR] [rviz2-4]: process has died [pid 1701128, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/install/so_arm_moveit_config/share/so_arm_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_wrpsarsc --params-file /tmp/launch_params_autbubhg --params-file /tmp/launch_params_2942udy0'].
+1777369680.5732794 [ros2_control_node-5] [INFO] [1777369680.573024569] [controller_manager]: Loading controller 'joint_state_broadcaster'
+1777369680.5906477 [ros2_control_node-5] [INFO] [1777369680.590378776] [controller_manager]: Loading controller 'gripper_controller'
+1777369680.6066470 [ros2_control_node-5] [INFO] [1777369680.603478220] [controller_manager]: Loading controller 'arm_controller'
+1777369680.6150167 [ros2_control_node-5] [WARN] [1777369680.614567239] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1777369680.6239412 [ros2_control_node-5] [INFO] [1777369680.623515764] [controller_manager]: Configuring controller 'gripper_controller'
+1777369680.6244307 [ros2_control_node-5] [INFO] [1777369680.623659060] [gripper_controller]: Action status changes will be monitored at 20.000000 Hz.
+1777369680.6541960 [ros2_control_node-5] [INFO] [1777369680.653668086] [controller_manager]: Configuring controller 'arm_controller'
+1777369680.6548502 [ros2_control_node-5] [INFO] [1777369680.653946385] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+1777369680.6549635 [ros2_control_node-5] [INFO] [1777369680.653995215] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+1777369680.6550326 [ros2_control_node-5] [INFO] [1777369680.654030543] [arm_controller]: Using 'splines' interpolation method.
+1777369680.6556988 [ros2_control_node-5] [INFO] [1777369680.655239023] [arm_controller]: Controller state will be published at 50.00 Hz.
+1777369680.6577265 [ros2_control_node-5] [INFO] [1777369680.657400833] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+1777369680.6840096 [ros2_control_node-5] [INFO] [1777369680.683551409] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1777369680.6845553 [ros2_control_node-5] [INFO] [1777369680.683688565] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+1777369680.7900462 [INFO] [spawner-7]: process has finished cleanly [pid 1701134]
+1777369680.8188682 [INFO] [spawner-6]: process has finished cleanly [pid 1701132]
+1777369680.8504021 [INFO] [spawner-8]: process has finished cleanly [pid 1701136]

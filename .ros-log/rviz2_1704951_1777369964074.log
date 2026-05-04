@@ -1,0 +1,24 @@
+[INFO] [1777369964.603370358] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1777369964.603430959] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1777369964.669133670] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1777369967.745337955] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [1777369967.778797557] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [1777369967.894911267] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0689711 seconds
+[INFO] [1777369967.894945137] [moveit_robot_model.robot_model]: Loading robot model 'so101_new_calib'...
+[WARN] [1777369968.216911915] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1777369969.066119308] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1777369969.067615895] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[INFO] [1777369969.394135522] [interactive_marker_display_96413441443296]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[WARN] [1777369969.403998557] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1777369969.404063846] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[WARN] [1777369969.407423783] [moveit_planning_scene.planning_scene]: Setting the scene for model 'panda' but model 'so101_new_calib' is loaded.
+[ERROR] [1777369969.407449362] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369969.407469499] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369969.407514489] [moveit_exceptions.exceptions]: Variable 'panda_joint1' is not known to model 'so101_new_calib'
+Exception thrown.
+[WARN] [1777369969.407549335] [moveit_planning_scene.planning_scene]: Setting the scene for model 'panda' but model 'so101_new_calib' is loaded.
+[ERROR] [1777369969.407565993] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369969.407578992] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+[ERROR] [1777369969.407556794] [moveit_background_processing.background_processing]: Exception caught while processing action 'requestPlanningSceneState': Variable 'panda_joint1' is not known to model 'so101_new_calib'
+[ERROR] [1777369969.407587250] [moveit_exceptions.exceptions]: Variable 'panda_joint1' is not known to model 'so101_new_calib'
+Exception thrown.

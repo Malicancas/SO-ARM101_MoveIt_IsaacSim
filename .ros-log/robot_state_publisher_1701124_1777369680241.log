@@ -1,0 +1,8 @@
+[WARN] [1777369680.274346714] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1777369680.274441113] [robot_state_publisher]: got segment base
+[INFO] [1777369680.274486157] [robot_state_publisher]: got segment gripper
+[INFO] [1777369680.274489638] [robot_state_publisher]: got segment jaw
+[INFO] [1777369680.274492029] [robot_state_publisher]: got segment lower_arm
+[INFO] [1777369680.274494339] [robot_state_publisher]: got segment shoulder
+[INFO] [1777369680.274503737] [robot_state_publisher]: got segment upper_arm
+[INFO] [1777369680.274506726] [robot_state_publisher]: got segment wrist

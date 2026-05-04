@@ -1,0 +1,82 @@
+1777369963.2510424 [INFO] [launch]: All log files can be found below /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/.ros-log/2026-04-28-10-52-43-250335-pop-os-1704923
+1777369963.2511501 [INFO] [launch]: Default logging verbosity is set to INFO
+1777369963.9649019 [INFO] [static_transform_publisher-1]: process started with pid [1704945]
+1777369963.9650805 [INFO] [robot_state_publisher-2]: process started with pid [1704947]
+1777369963.9651654 [INFO] [move_group-3]: process started with pid [1704949]
+1777369963.9652228 [INFO] [rviz2-4]: process started with pid [1704951]
+1777369963.9652724 [INFO] [ros2_control_node-5]: process started with pid [1704953]
+1777369963.9653189 [INFO] [spawner-6]: process started with pid [1704955]
+1777369963.9653645 [INFO] [spawner-7]: process started with pid [1704957]
+1777369963.9654095 [INFO] [spawner-8]: process started with pid [1704959]
+1777369963.9654558 [INFO] [mtc_node-9]: process started with pid [1704961]
+1777369963.9829566 [static_transform_publisher-1] [INFO] [1777369963.982647003] [static_transform_publisher0]: Spinning until stopped - publishing transform
+1777369963.9830999 [static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+1777369963.9831390 [static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+1777369963.9831643 [static_transform_publisher-1] from 'world' to 'base'
+1777369963.9975662 [ros2_control_node-5] [WARN] [1777369963.997160183] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+1777369963.9990582 [ros2_control_node-5] [INFO] [1777369963.997897465] [resource_manager]: Loading hardware 'FakeSystem' 
+1777369964.0006051 [ros2_control_node-5] [INFO] [1777369964.000402192] [resource_manager]: Initialize hardware 'FakeSystem' 
+1777369964.0115471 [ros2_control_node-5] [INFO] [1777369964.010483969] [resource_manager]: Successful initialization of hardware 'FakeSystem'
+1777369964.0117095 [ros2_control_node-5] [INFO] [1777369964.010577365] [resource_manager]: 'configure' hardware 'FakeSystem' 
+1777369964.0117726 [ros2_control_node-5] [INFO] [1777369964.010586170] [resource_manager]: Successful 'configure' of hardware 'FakeSystem'
+1777369964.0118101 [ros2_control_node-5] [INFO] [1777369964.010592560] [resource_manager]: 'activate' hardware 'FakeSystem' 
+1777369964.0118418 [ros2_control_node-5] [INFO] [1777369964.010596771] [resource_manager]: Successful 'activate' of hardware 'FakeSystem'
+1777369964.0168028 [ros2_control_node-5] [INFO] [1777369964.016017371] [controller_manager]: update rate is 100 Hz
+1777369964.0169559 [ros2_control_node-5] [INFO] [1777369964.016052784] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+1777369964.0170081 [ros2_control_node-5] [WARN] [1777369964.016135061] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+1777369964.3109481 [ros2_control_node-5] [INFO] [1777369964.310657339] [controller_manager]: Loading controller 'gripper_controller'
+1777369964.3270328 [ros2_control_node-5] [INFO] [1777369964.326677998] [controller_manager]: Loading controller 'arm_controller'
+1777369964.3358634 [ros2_control_node-5] [WARN] [1777369964.335507805] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+1777369964.3566613 [ros2_control_node-5] [INFO] [1777369964.356455294] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+1777369964.3569820 [ros2_control_node-5] [ERROR] [1777369964.356518017] [controller_manager]: Could not configure controller with name 'joint_state_broadcaster' because no controller with this name exists
+1777369964.4661648 [ERROR] [spawner-7]: process has died [pid 1704957, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner gripper_controller --ros-args'].
+1777369964.4761395 [ERROR] [spawner-6]: process has died [pid 1704955, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner arm_controller --ros-args'].
+1777369964.4935663 [ERROR] [spawner-8]: process has died [pid 1704959, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster --ros-args'].
+1777369964.6036029 [rviz2-4] [INFO] [1777369964.603370358] [rviz2]: Stereo is NOT SUPPORTED
+1777369964.6037209 [rviz2-4] [INFO] [1777369964.603430959] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1777369964.6693928 [rviz2-4] [INFO] [1777369964.669133670] [rviz2]: Stereo is NOT SUPPORTED
+1777369964.7322702 [rviz2-4] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+1777369964.7324181 [rviz2-4]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+1777369965.3366501 [ERROR] [mtc_node-9]: process has died [pid 1704961, exit code -6, cmd '/home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/install/mtc_tutorial/lib/mtc_tutorial/mtc_node --ros-args --params-file /tmp/launch_params_smqmsqvf --params-file /tmp/launch_params_7483orbh --params-file /tmp/launch_params_apxtb9em --params-file /tmp/launch_params_3ob_d9_l --params-file /tmp/launch_params_ldnaute6'].
+1777369967.7458980 [rviz2-4] [ERROR] [1777369967.745337955] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+1777369967.7790470 [rviz2-4] [INFO] [1777369967.778797557] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+1777369967.8951538 [rviz2-4] [INFO] [1777369967.894911267] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0689711 seconds
+1777369967.8953187 [rviz2-4] [INFO] [1777369967.894945137] [moveit_robot_model.robot_model]: Loading robot model 'so101_new_calib'...
+1777369968.2171643 [rviz2-4] [WARN] [1777369968.216911915] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1777369969.0667610 [rviz2-4] [INFO] [1777369969.066119308] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+1777369969.0677514 [rviz2-4] [INFO] [1777369969.067615895] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+1777369969.3943501 [rviz2-4] [INFO] [1777369969.394135522] [interactive_marker_display_96413441443296]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+1777369969.4042282 [rviz2-4] [WARN] [1777369969.403998557] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1777369969.4043450 [rviz2-4] [WARN] [1777369969.404063846] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+1777369969.4076698 [rviz2-4] [WARN] [1777369969.407423783] [moveit_planning_scene.planning_scene]: Setting the scene for model 'panda' but model 'so101_new_calib' is loaded.
+1777369969.4077942 [rviz2-4] [ERROR] [1777369969.407449362] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+1777369969.4078257 [rviz2-4] [ERROR] [1777369969.407469499] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+1777369969.4080546 [rviz2-4] [ERROR] [1777369969.407514489] [moveit_exceptions.exceptions]: Variable 'panda_joint1' is not known to model 'so101_new_calib'
+1777369969.4081178 [rviz2-4] Exception thrown.
+1777369969.4081495 [rviz2-4] [WARN] [1777369969.407549335] [moveit_planning_scene.planning_scene]: Setting the scene for model 'panda' but model 'so101_new_calib' is loaded.
+1777369969.4081755 [rviz2-4] [ERROR] [1777369969.407565993] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+1777369969.4081988 [rviz2-4] [ERROR] [1777369969.407578992] [moveit_transforms.transforms]: Given transform is to frame 'world', but frame 'base' was expected.
+1777369969.4082212 [rviz2-4] [ERROR] [1777369969.407556794] [moveit_background_processing.background_processing]: Exception caught while processing action 'requestPlanningSceneState': Variable 'panda_joint1' is not known to model 'so101_new_calib'
+1777369969.4082434 [rviz2-4] [ERROR] [1777369969.407587250] [moveit_exceptions.exceptions]: Variable 'panda_joint1' is not known to model 'so101_new_calib'
+1777369969.4082670 [rviz2-4] Exception thrown.
+1777369969.4082944 [rviz2-4] [INFO] [1777369969.407601287] [moveit_ros_visualization.motion_planning_frame]: group arm
+1777369969.4083242 [rviz2-4] [INFO] [1777369969.407603978] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'arm' in namespace ''
+1777369969.4083486 [rviz2-4] terminate called after throwing an instance of 'moveit::Exception'
+1777369969.4083717 [rviz2-4]   what():  Variable 'panda_joint1' is not known to model 'so101_new_calib'
+1777369970.5115845 [ERROR] [rviz2-4]: process has died [pid 1704951, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ze/Documents/SO-ARM101_MoveIt_IsaacSim/install/so_arm_moveit_config/share/so_arm_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params__t1wf4g_ --params-file /tmp/launch_params_euxtb5nk --params-file /tmp/launch_params_uj3qsw8l'].
+1777370466.2330480 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1777370466.2424650 [ros2_control_node-5] [INFO] [1777370466.232684494] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1777370466.2429407 [ros2_control_node-5] [INFO] [1777370466.232920451] [controller_manager]: Shutdown request received....
+1777370466.2432160 [ros2_control_node-5] [INFO] [1777370466.233052989] [controller_manager]: Shutting down all controllers in the controller manager.
+1777370466.2434170 [ros2_control_node-5] [INFO] [1777370466.233117639] [controller_manager]: Shutting down controller 'gripper_controller'
+1777370466.2449589 [ros2_control_node-5] [INFO] [1777370466.233310368] [controller_manager]: Shutting down controller 'arm_controller'
+1777370466.2452352 [ros2_control_node-5] [INFO] [1777370466.233396704] [resource_manager]: 'deactivate' hardware 'FakeSystem' 
+1777370466.2454319 [ros2_control_node-5] [INFO] [1777370466.233431430] [resource_manager]: Successful 'deactivate' of hardware 'FakeSystem'
+1777370466.2456059 [ros2_control_node-5] [INFO] [1777370466.233445883] [resource_manager]: 'shutdown' hardware 'FakeSystem' 
+1777370466.2457561 [ros2_control_node-5] [INFO] [1777370466.233466708] [resource_manager]: Successful 'shutdown' of hardware 'FakeSystem'
+1777370466.2462046 [ros2_control_node-5] [INFO] [1777370466.233484104] [controller_manager]: Shutting down the controller manager.
+1777370466.2489271 [static_transform_publisher-1] [INFO] [1777370466.232704634] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1777370466.3608851 [INFO] [static_transform_publisher-1]: process has finished cleanly [pid 1704945]
+1777370466.3663206 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 1704947]
+1777370466.3979626 [INFO] [ros2_control_node-5]: process has finished cleanly [pid 1704953]
+1777370466.4307415 [INFO] [move_group-3]: process has finished cleanly [pid 1704949]

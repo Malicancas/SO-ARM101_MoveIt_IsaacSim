@@ -1,9 +1,17 @@
 # Default initial positions for so101_new_calib's ros2_control fake system
+# Valores em radianos — posição inicial definida pelo utilizador no RViz:
+#   Rotation:    1°   Pitch: -95°   Elbow: 36°   Wrist_Pitch: 58°   Wrist_Roll: -90°
 
 initial_positions:
-  Elbow: 0
-  Jaw: 0
-  Pitch: 0
-  Rotation: 0
-  Wrist_Pitch: 0
-  Wrist_Roll: 0
+  #Rotation:    0.01745    #   1°
+  Rotation:    -1.57080
+  #Pitch:      -1.65806    # -95°
+  Pitch:      0.0
+  #Elbow:       0.62832    #  36°
+  Elbow:       0.0
+  Jaw:         0.0
+  #Wrist_Pitch: 1.01229    #  58°
+  Wrist_Pitch: 0.0
+  #Wrist_Roll: -1.57080    # -90°
+  Wrist_Roll: 0.0
+

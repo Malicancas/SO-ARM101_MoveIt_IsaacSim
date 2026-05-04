@@ -1,0 +1,3 @@
+[INFO] [1777369964.267589001] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[WARN] [1777369964.355358343] [spawner_joint_state_broadcaster]: [93mController already loaded, skipping load_controller[0m
+[ERROR] [1777369964.356927389] [spawner_joint_state_broadcaster]: [91mFailed to configure controller[0m

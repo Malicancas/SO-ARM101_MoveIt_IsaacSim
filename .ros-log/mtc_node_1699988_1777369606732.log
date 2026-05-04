@@ -1,0 +1,7 @@
+[INFO] [1777369606.787209147] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0226423 seconds
+[INFO] [1777369606.787259174] [moveit_robot_model.robot_model]: Loading robot model 'so101_new_calib'...
+[WARN] [1777369607.179866486] [kdl_parser]: The root link base has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1777369607.179936670] [moveit_kinematics_base.kinematics_base]: Using position only ik
+[WARN] [1777369608.724891685] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[ERROR] [1777369609.228919976] [moveit_task_constructor_executor_109888322271696]: Failed to connect to the 'execute_task_solution' action server
+[ERROR] [1777369609.229111881] [mtc_tutorial]: Task execution failed
